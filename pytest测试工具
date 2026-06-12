@@ -1,0 +1,4 @@
+pytest测试工具安装
+pip install pytest
+检查版本
+pytest --version
