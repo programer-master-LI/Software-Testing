@@ -1,0 +1,38 @@
+Pytest 与 unittest 区别？
+Pytest 语法更简洁    Fixture 功能更强
+参数化测试方便
+插件生态丰富
+自动发现测试文件
+
+1.YOLO 目标检测项目
+单元测试：
+def test_load_model():
+    model = load_model()
+    assert model is not None
+
+集成测试：
+图片
+↓
+模型推理
+↓
+结果输出
+验证整个流程。
+
+2.爬虫项目
+测试：
+网页获取
+↓
+HTML解析
+↓
+数据存储
+确保每一步都正确。
+
+3.Flask/FastAPI项目
+测试：
+用户登录
+↓
+JWT生成
+↓
+权限验证
+↓
+接口返回
