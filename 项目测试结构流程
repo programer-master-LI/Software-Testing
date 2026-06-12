@@ -4,6 +4,9 @@ Pytest 语法更简洁    Fixture 功能更强
 插件生态丰富
 自动发现测试文件
 
+常用插件（工具包）
+
+
 1.YOLO 目标检测项目
 单元测试：
 def test_load_model():
